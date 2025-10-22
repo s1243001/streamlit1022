@@ -18,6 +18,6 @@ m = leafmap.Map(center=[0, 0])
 m.add_basemap(option)
 m.add_gdf(gdf, 
           layer_name="Country Interest",
-          style={"color": "black", "weight": 0.5}
+          style={"color": "black", "weight": 0.5})
 m.add_layer_control() 
 m.to_streamlit(height=700)
