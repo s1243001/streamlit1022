@@ -2,7 +2,7 @@ import streamlit as st
 import leafmap.foliumap as leafmap
 import geopandas as gpd # / GeoPandas
 st.set_page_config(layout="wide")
-st.title("Leafmap 國界")
+st.title("Leafmap 路線")
 
 with st.sidebar:
  st.header("底圖選擇")
