@@ -15,6 +15,7 @@ url = "country_interest.geojson"
 gdf = gpd.read_file(url)
 st.dataframe(gdf.head())
 m = leafmap.Map(center=[0, 0])
+m.add_basemap(option)
 m.add_gdf(gdf, 
           layer_name="Country Interest")
 m.add_layer_control() 
